@@ -7,20 +7,24 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-minty-feedsto
 About r-minty
 -------------
 
-Home: https://gesistsa.github.io/minty/, https://github.com/gesistsa/minty
+Home: https://gesistsa.github.io/minty/
 
 Package license: MIT
 
 Summary: Port the type guesser from 'readr' (so-called 'readr' first edition parsing engine, now superseded by 'vroom').
+
+Development: https://github.com/gesistsa/minty
 
 About r-minty
 -------------
 
-Home: https://gesistsa.github.io/minty/, https://github.com/gesistsa/minty
+Home: https://gesistsa.github.io/minty/
 
 Package license: MIT
 
 Summary: Port the type guesser from 'readr' (so-called 'readr' first edition parsing engine, now superseded by 'vroom').
+
+Development: https://github.com/gesistsa/minty
 
 Current build status
 ====================
