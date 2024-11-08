@@ -1,4 +1,4 @@
-{% set version = '0.0.1' %}
+{% set version = "0.0.4" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/minty_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/minty/minty_{{ version }}.tar.gz
-  sha256: cfbdc6603c8fb54ea4d43091e2aee4c99212e6e20a335ed89576156d86237acd
+  sha256: 96222703655deb365dc4199ff54daa17e7030949e4d921d6e9c039861ef60742
 
 build:
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -55,8 +55,7 @@ about:
   home: https://gesistsa.github.io/minty/
   dev_url: https://github.com/gesistsa/minty
   license: MIT
-  summary: Port the type guesser from 'readr' (so-called 'readr' first edition parsing engine,
-    now superseded by 'vroom').
+  summary: Port the type guesser from 'readr' (so-called 'readr' first edition parsing engine, now superseded by 'vroom').
   license_family: MIT
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/MIT
